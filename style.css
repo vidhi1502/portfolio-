@@ -1,0 +1,12 @@
+nav{padding: 10px;display: flex;justify-content: end;}
+*{margin: 0;padding: 0;background-color: grey;}
+.a1{padding: 10px;text-decoration: none;color: antiquewhite;font-size: larger;font-family: 'Rethink Sans', sans-serif;margin: 10px;}
+
+p{font-family: 'Preahvihear', sans-serif;font-size: 2rem;padding: 10px;box-shadow: 5px 10px 10px 30px rgb(92, 69, 69) ;margin: 10px;
+}
+h3{font-family: 'Rethink Sans', sans-serif;font-size: 2rem;padding:10px;
+}
+section{margin: 10px;padding: 10px;}
+.sect2{padding: 20px;display: flex;justify-content:center ;transform: rotate(-10deg);margin-top: 20px;height:25rem;position: relative;top:40px; }
+@media only screen and (max-width:500px) {html{font-size: 13px;} img{height: 250px;} h3{display: flex;justify-content: center;} .a1{margin:25px;position: relative;top:10px;} p{line-height: 1.2;}}
+@media only screen and (min-width:500px) {html{font-size: 18px;}}
